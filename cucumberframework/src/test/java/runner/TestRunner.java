@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/java/features",glue="stepdefinitions",
 		tags="@Seleniumtest1,@Seleniumtest2",
 		strict=true,monochrome=true,
-		plugin= {"pretty","html:target/cucumber"}
+		plugin = "json:target/jsonReports/cucumber-report.json"
 		)
 
 public class TestRunner 
