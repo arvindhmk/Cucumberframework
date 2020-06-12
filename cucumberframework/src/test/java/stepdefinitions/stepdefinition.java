@@ -57,7 +57,7 @@ public class stepdefinition {
 		String resultText = resultElement.getText();
 		System.out.println(resultText);
 
-		Assert.assertTrue(resultText.contains(strArg1));
+		Assert.assertFalse(resultText.contains(strArg1));
 
 	}
 
